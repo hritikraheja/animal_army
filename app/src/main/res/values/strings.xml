@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Animal Army</string>
+    <string name="email">EMAIL</string>
+    <string name="name">NAME</string>
+    <string name="icon">Icon</string>
+    <string name="title_activity_maps_fragment">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nearby_animal_helpers">NEARBY ANIMAL HELPERS</string>
+    <string name="google_places_api_key">YOUR API KEY</string>
+</resources>
