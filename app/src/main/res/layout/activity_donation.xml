@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#D4E1E3">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DONATE"
+            android:textSize="40dp"
+            android:textColor="#000"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:background="@drawable/background_for_map_frag"
+            android:layout_marginBottom="30dp" />
+        <TextView
+            android:id="@+id/aau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Animal Aid Unlimited"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold|italic"
+            android:background="#A1FFFFFF"
+            android:fontFamily="serif"/>
+        <TextView
+            android:id="@+id/ar"
+            android:background="#A1FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Animal Raahat"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/bgrd"
+            android:background="#A1FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Bhartiya Gau Raksha Dal"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/bcoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Blue Cross Of India"
+            android:layout_margin="10dp"
+            android:background="#A1FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/care"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Charlie's Animal Rescue Center"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:background="#A1FFFFFF"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/cupa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Compassion Unlimited Plus Action"
+            android:textSize="20sp"
+            android:background="#A1FFFFFF"
+            android:layout_margin="10dp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/drf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Debasree Roy Foundation"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:background="#A1FFFFFF"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/fiapo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A1FFFFFF"
+            android:text="8. Federation Of Indian Animal Protection Organisations"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif"
+            />
+        <TextView
+            android:id="@+id/fs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Friendicoes - SECA"
+            android:background="#A1FFFFFF"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/his"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Help In Suffering"
+            android:textSize="20sp"
+            android:background="#A1FFFFFF"
+            android:layout_margin="10dp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/peta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. PETA India"
+            android:background="#A1FFFFFF"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/posh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. POSH Foundation"
+            android:background="#A1FFFFFF"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/pfa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13. People For Animals (PFA)"
+            android:background="#A1FFFFFF"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif"
+            />
+        <TextView
+            android:id="@+id/rpr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14. Red Paws Rescue"
+            android:background="#A1FFFFFF"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/sgacc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15. Sanjay Gandhi Animal Care Center"
+            android:layout_margin="10dp"
+            android:background="#A1FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/straw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16. Stray Relief And Animal Welfare (STRAW)"
+            android:layout_margin="10dp"
+            android:background="#A1FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/bspca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="17. The Bombay Society for Prevention of Cruelity on Animals"
+            android:textSize="20sp"
+            android:background="#A1FFFFFF"
+            android:layout_margin="10dp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/vspca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18. Vishaka's Society For Protection and Care of Animals"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:background="#A1FFFFFF"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/wsos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19. Wildlife SOS"
+            android:background="#A1FFFFFF"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+        <TextView
+            android:id="@+id/wti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20. Wildlife Trust Of India"
+            android:background="#A1FFFFFF"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="serif" />
+
+    </LinearLayout>
+
+</ScrollView>

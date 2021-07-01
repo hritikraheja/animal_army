@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/organisationsItem"
+        android:title="ORGANISATIONS"
+        android:icon="@drawable/ic_logo_for_organizations" />
+    <item android:id="@+id/emergencyItem"
+        android:title="NEED HELP?"
+        android:icon="@drawable/ic_emergency"/>
+    <item android:id="@+id/donationItem"
+        android:title="DONATE"
+        android:icon="@drawable/ic_rupee" />
+</menu>
