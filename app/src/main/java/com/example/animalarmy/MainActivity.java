@@ -34,14 +34,14 @@ public class MainActivity extends AppCompatActivity {
         ConnectivityManager cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo networkInfo = cm.getActiveNetworkInfo();
         final boolean isConnected = networkInfo != null && networkInfo.isConnectedOrConnecting();
-        loadFragment(new OrganisationsFragment());
+        loadFragment(new VideosFragment());
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int itemId = item.getItemId();
                 switch (itemId) {
                     case R.id.organisationsItem:
-                        loadFragment(new OrganisationsFragment());
+                        loadFragment(new VideosFragment());
                         break;
                     case R.id.emergencyItem:
                         if(ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED&&ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED){

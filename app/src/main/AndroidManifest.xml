@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -20,8 +20,11 @@
         android:roundIcon="@drawable/logo_for_organizations"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".ErrorFrag"
-            tools:ignore="Instantiatable"></activity>
+        <activity android:name=".FullScreenVideoPlayer"></activity>
+        <activity android:name=".VideoActivity" />
+        <activity
+            android:name=".ErrorFrag"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".MapFrag"
             tools:ignore="Instantiatable" />
